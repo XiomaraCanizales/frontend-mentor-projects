@@ -1,2 +1,3 @@
-# frontend-mentor-projects
-All my Frontend Mentor Projects
+# Frontend Mentor Projects
+
+1. News Homepage
