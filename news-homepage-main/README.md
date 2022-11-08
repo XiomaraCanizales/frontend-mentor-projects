@@ -27,9 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop View](../news-homepage-main/screenshots/desktop-view.png)
-[Mobile View](../news-homepage-main/screenshots/mobile-view.png)
-[Mobile Menu View](../news-homepage-main/screenshots/mobile-menu-view.png)
+- [Desktop View](../news-homepage-main/screenshots/desktop-view.png)
+- [Mobile View](../news-homepage-main/screenshots/mobile-view.png)
+- [Mobile Menu View](../news-homepage-main/screenshots/mobile-menu-view.png)
 
 ### Links
 
