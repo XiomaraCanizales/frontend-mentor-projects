@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop View](../news-homepage-main/screenshots/desktop-view.png)
-- [Mobile View](../news-homepage-main/screenshots/mobile-view.png)
-- [Mobile Menu View](../news-homepage-main/screenshots/mobile-menu-view.png)
+- [Desktop View](../news-homepage-main/docs/screenshots/desktop-view.png)
+- [Mobile View](../news-homepage-main/docs/screenshots/mobile-view.png)
+- [Mobile Menu View](../news-homepage-main/docs/screenshots/mobile-menu-view.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/news-homepage-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://xiomaracanizales.github.io/frontend-mentor-projects/news-homepage-main/docs/index.html)
 
 ## My process
 
