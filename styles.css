@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* variables */ 
+:root{
+    --spanish-pink: #edbbb4ff;
+    --cameo-pink: #dbabbeff;
+    --queen-pink: #edd2e0ff;
+    --cultured: #f6f3f4ff;
+    --eerie-black: #131415ff;
+}
+
+/* reset */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+* { margin: 0; }
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--eerie-black);
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    background-color: var(--cultured);
+    color: var(--eerie-black);
+    padding: 5em;
+}
+
+h1 { 
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-width: 18.75em;
+    min-height: 18.75em;
+    transition: transform .5s ease-in-out;
+}
+
+.box img {
+    object-fit: contain;
+}
+
+.box p {
+    background-color: var(--eerie-black);
+    color: var(--cultured);
+    padding: 0.5em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
