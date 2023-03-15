@@ -28,8 +28,8 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-- [Desktop View](/notifications-page-main/docs/screenshoots/desktop-view.png "Desktop View")
-- [Mobile View](notifications-page-main/docs/screenshoots/mobile-view.png "Mobile View")
+![Desktop View](/notifications-page-main/docs/screenshoots/desktop-view.png "Desktop View")
+![Mobile View](notifications-page-main/docs/screenshoots/mobile-view.png "Mobile View")
 
 
 ### Links
