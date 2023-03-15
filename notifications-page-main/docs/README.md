@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 ![Desktop View](/notifications-page-main/docs/screenshoots/desktop-view.png "Desktop View")
-![Mobile View](notifications-page-main/docs/screenshoots/mobile-view.png "Mobile View")
+![Mobile View](/notifications-page-main/docs/screenshoots/mobile-view.png "Mobile View")
 
 
 ### Links
