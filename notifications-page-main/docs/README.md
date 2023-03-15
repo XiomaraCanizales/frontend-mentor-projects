@@ -66,4 +66,3 @@ Mostly I've been losing my fear of using JS.
 
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)
 - Website - [My site](https://xiomaracanizales.github.io/portfolio/)
-
