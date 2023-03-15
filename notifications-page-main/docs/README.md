@@ -28,13 +28,10 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-- [Desktop View](notifications-page-main/docs/screenshoots/desktop-view.png)
+- [Desktop View](https://github.com/XiomaraCanizales/frontend-mentor-projects/blob/d0a2c55099c8cff639b56606f5fa55b34551a85a/notifications-page-main/docs/screenshoots/desktop-view.png)
 - [Mobile View](..notifications-page/docs/screenshots/mobile-view.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/news-homepage-main)
 - Live Site URL: [URL](https://xiomaracanizales.github.io/frontend-mentor-projects/news-homepage-main/docs/index.html)
