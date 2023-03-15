@@ -100,4 +100,4 @@ main { margin: 3rem 0; }
     font-size: 1.1em;
 }
 
-.box:hover { transform: scale(1.1); }
+.box:hover { transform: scale(1); }
