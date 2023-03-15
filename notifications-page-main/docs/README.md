@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 - [Desktop View](https://github.com/XiomaraCanizales/frontend-mentor-projects/blob/d0a2c55099c8cff639b56606f5fa55b34551a85a/notifications-page-main/docs/screenshoots/desktop-view.png)
-- [Mobile View](..notifications-page/docs/screenshots/mobile-view.png)
+- [Mobile View](https://github.com/XiomaraCanizales/frontend-mentor-projects/blob/d0a2c55099c8cff639b56606f5fa55b34551a85a/notifications-page-main/docs/screenshoots/mobile-view.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/news-homepage-main)
-- Live Site URL: [URL](https://xiomaracanizales.github.io/frontend-mentor-projects/news-homepage-main/docs/index.html)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/notifications-page-main)
+- Live Site URL: [URL](https://xiomaracanizales.github.io/frontend-mentor-projects/notifications-page-main/docs/index.html)
 
 ## My process
 
