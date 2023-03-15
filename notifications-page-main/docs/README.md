@@ -28,7 +28,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-- [Desktop View](..notifications-page/docs/screenshots/desktop-view.png)
+- [Desktop View](notifications-page-main/docs/screenshoots/desktop-view.png)
 - [Mobile View](..notifications-page/docs/screenshots/mobile-view.png)
 
 ### Links
