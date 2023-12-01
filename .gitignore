@@ -1,1 +1,8 @@
 .DS_Store
+.gitignore
+news-homepage/.DS_Store
+news-homepage/.gitignore
+news-homepage/docs/.DS_Store
+news-homepage/docs/assets/images/.DS_Store
+news-homepage/docs/assets/.DS_Store
+news-homepage/docs/screenshots/.DS_Store

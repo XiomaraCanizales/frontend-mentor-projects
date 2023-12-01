@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+/* variables */
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --line-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-gray-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    /* border:  1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--white);
+    font-size: 18px;
+    font-weight: 300;
+
+    display: flex;
+    flex-direction: column;
+
+    /* overflow-x: hidden; */
+}
+
+h1, h2, h3, h4 {
+    color: var(--dark-blue);
+    letter-spacing: 0.1;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; }
+
+p {
+    font-size: 1rem;
+    color: var(--grayish-blue);
+    line-height: 1.75;
+}
+
+a { text-decoration: none; }
+
+/* global classes */
+.btn {
+    background: linear-gradient(135deg, var(--line-green) 0%, var(--bright-cyan) 100%);
+    color: var(--white);
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem 2.5rem; 
+    max-width: 200px;
+}
+
+.btn:hover { opacity: 0.8; }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+/* header */
+header {
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    
+    background-color: var(--white);
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+nav > a { 
+    color: var(--grayish-blue); 
+    padding: 2rem 0;
+}
+
+nav > a:hover { 
+    color: var(--dark-blue);
+    border-block-end: 4px solid; 
+    border-image: linear-gradient(to right, var(--line-green), var(--bright-cyan));
+    border-image-slice: 1;
+}
+
+/* intro section */
+#intro {
+    background-color: var(--very-light-gray);
+    max-width: 100%;
+    height: 65vh; 
+    padding-left: 5rem;
+    margin-right: -100px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.intro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.intro-text p { width: 50%; }
+
+.intro-img {
+    width: 50%;
+    background-image: url('/easybank-landing-page/docs/assets/images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 25%;
+    background-size: 150% 150%;
+    height: 65vh;
+} 
+
+.intro-img img {
+    top: 15%;
+    right: -80%;
+    transform: translateY(-15%);
+    object-fit: contain;
+    height: 140%;
+    width: max-content;
+}
+
+/* features section */
+#features { 
+    background-color: var(--light-gray-blue);
+    padding: 5rem;
+}
+
+.feature-img { margin-bottom: 1rem; }
+
+/* articles section */
+#articles { 
+    background-color: var(--very-light-gray); 
+    padding: 5rem;
+}
+
+.card {
+    max-width: 350px; 
+    background-color: var(--white);
+}
+
+.card-img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body { padding: 1.5rem; }
+
+.card-author {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-body h4:hover { color: var(--line-green); }
+
+/* footer */
+footer {
+    background-color: var(--dark-blue); 
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 { 
+    flex: 1; 
+    padding-right: 2rem;
+}
+
+.social-media-icons { margin-top: 2.5rem; }
+.icon { padding-right: 1rem; }
+.icon:hover { filter: invert(.5) sepia(1) saturate(4) hue-rotate(85deg) brightness(106%); }
+
+.box2 { flex: 2; }
+
+ul { 
+    display: inline-block; 
+    margin-right: 5rem;
+}
+
+li { list-style-type: none; }
+
+.box2 a { 
+    display: inline-block;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.box2 a:hover { color: var(--line-green); }
+
+.box3 { 
+    text-align: right; 
+    flex: 3;
+}
+.box3 button { margin-bottom: 2rem; }
+
+/**/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
 /* variables */
 :root {
     /* colors*/
-    --onyx:  #393E41;
     --silverpink: #C7ACA1;
     --champagnepink: #EEDDD1;
-    --platinum: #E7E4E0;
+
+    --black:  #393D3F;
+    --white: #FDFDFF;
+    --secundary-color-1: #62929E;
+    --secundary-color-2:#C56C86;
+
     /* fonts */
     --ff-primary: 'Montserrat', sans-serif;
     --ff-light: 200;
     --ff-regular: 400;
     --ff-bold: 600;
     /* sizes */
-    --size-bg: 2.5em;
-    --size-md: 2em;
-    --size-sm: 1.25em;
+    --size-bg: 2.5rem;
+    --size-md: 2rem;
+    --size-sm: 1.25rem;
     /* others */
     --spacing: 0.150rem;
     --transition: all 0.3s ease-in-out;
@@ -28,45 +33,46 @@
     font-family: var(--ff-primary);
 }
 
-img {
-    display: block;
-    width: 100%;
+body { 
+    background-color: var(--white); 
+    font-size: 16px;
+    padding: 0 5rem;
 }
 
+h1, h2 {
+    letter-spacing: var(--spacing);
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: var(--ff-bold);
+}
+
+h1 { font-size: var(--size-bg) }
+h2 { font-size: var(--size-md) }
+
 a { 
-    color: var(--onyx);
+    color: var(--black);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: var(--spacing);
 }
   
 a:hover {
-    color: var(--onyx);
+    color: var(--black);
     text-decoration: none;
 }
 
-h1 { 
-    letter-spacing: var(--spacing);
-    text-transform: uppercase;
-    color: var(--onyx);
-    font-weight: var(--ff-bold);
-    font-size: var(--size-bg);
-    margin-top: 2rem;
-}
-
 p {
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1.75;
 }
 
-body {
-    background-color: var(--platinum); 
-    font-size: 16px;
-    padding: 0 5em;
+img {
+    display: block;
+    width: 100%;
 }
 
 /* HEADER */
-header { padding: 1.5em 0; }
+header { padding: 1.5rem 0; }
 
 /* MAIN SECTION */
 main { margin: 3rem 0; }
@@ -79,10 +85,18 @@ main { margin: 3rem 0; }
 }
 
 .box {
-    max-width: 40%;
-    height: 300px;
-    transition: transform .5s ease-in-out;
+    max-width: 400px;
+    background-color: var(--champagnepink);
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size-sm);
+    
+    transition: var(--transition);
 }
+
+.box:hover { background-color: var(--white); }
 
 .box img {
     max-width: 100%;
@@ -92,12 +106,12 @@ main { margin: 3rem 0; }
 }
 
 .box p {
-    background-color: var(--onyx);
-    color: var(--platinum);
-    padding: 0.5em 0;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 0;
     width: 100%;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 .box:hover { transform: scale(1); }
