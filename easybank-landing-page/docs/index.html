@@ -6,24 +6,27 @@
     <title>Easybank landing page</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
   </head>
 
   <body>
     <header>
-      <div class="logo">
-        <a href="#">
-          <img src="./assets/images/logo.svg" alt="Easybank Logo">
-        </a>
+      <div class="nav-logo">
+        <img src="./assets/images/logo.svg" alt="Easybank Logo" class="logo">
+        <button class="nav-toggle">
+          <img src="./assets/images/icon-hamburger.svg" alt="">
+        </button>
       </div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-      </nav>
-      <button type="button" class="btn">Request Invite</button>
+
+        <nav id="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </nav>
+
+      <a href="#" class="cta-btn">Request Invite</a>
     </header>
 
     <main>
@@ -36,7 +39,7 @@
           </h1>
           <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
             for spending, saving, budgeting, investing, and much more.</p>
-          <button type="button" class="btn">Request Invite</button>
+          <a href="#" class="cta-btn">Request Invite</a>
         </div>
         <div class="intro-img">
           <img src="assets/images/image-mockups.png" alt="">
@@ -47,7 +50,6 @@
         <h2>Why choose Easybank?</h2>
         <p>
           We leverage Open Banking to turn your bank account into your financial hub. 
-          <br>
           Control your finances like never before.
         </p>
 
@@ -126,11 +128,7 @@
 
     <footer>
       <div class="box1">
-        <div>
-          <a href="#">
-            <img src="./assets/images/logo-footer.svg" alt="Easybank Logo">
-          </a>
-        </div>
+        <img src="./assets/images/logo-footer.svg" alt="Easybank Logo" class="logo">
         <div class="social-media-icons">
           <a href="#" role="button">
             <img src="./assets/images/icon-facebook.svg" alt="social media" class="icon">
@@ -165,9 +163,8 @@
         </ul>
       </div>
 
-
         <div class="box3">
-          <button type="button" class="btn">Request Invite</button>
+          <a href="#" class="cta-btn">Request Invite</a>
           <p>© Easybank. All Rights Reserved</p>
         </div>
     </footer>
@@ -176,6 +173,8 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Xiomara Canizales</a>.
     </div>
+
+    <script src="./assets/index.js"></script>
 
   </body>
 </html>
