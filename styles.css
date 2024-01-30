@@ -1,22 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 /* variables */
 :root {
     /* colors*/
-    --silverpink: #C7ACA1;
-    --champagnepink: #EEDDD1;
-
-    --black:  #393D3F;
-    --white: #FDFDFF;
+     --white: #fdfdffff;
+     --champagne-pink: #eeddd1ff;
+     --silverpink: #c7aca1ff;
+     --rosy-brown: #b79b8fff;
+     --eerie-black: #1c1f21ff;
 
     /* fonts */
     --ff-primary: 'Montserrat', sans-serif;
     --ff-regular: 400;
     --ff-bold: 600;
+
     /* sizes */
     --size-bg: 2.5rem;
     --size-md: 2rem;
     --size-sm: 1.25rem;
+
     /* others */
     --spacing: 0.150rem;
     --transition: all 0.3s ease-in-out;
@@ -27,34 +29,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--ff-primary);
 }
 
 body { 
     background-color: var(--white); 
     font-size: 16px;
     padding: 0 5rem;
+    font-family: var(--ff-primary);
 }
 
-h1, h2 {
+h1 {
     letter-spacing: var(--spacing);
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--eerie-black);
     font-weight: var(--ff-bold);
+    font-size: var(--size-bg);
+    margin: 2rem 0;
 }
 
-h1 { font-size: var(--size-bg) }
-h2 { font-size: var(--size-md) }
-
 a { 
-    color: var(--black);
+    color: var(--eerie-black);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: var(--spacing);
 }
   
 a:hover {
-    color: var(--black);
+    color: var(--eerie-black);
     text-decoration: none;
 }
 
@@ -72,18 +73,17 @@ img {
 header { padding: 1.5rem 0; }
 
 /* MAIN SECTION */
-main { margin: 3rem 0; }
 
 .box-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 2rem;
 }
 
 .box {
     max-width: 400px;
-    background-color: var(--champagnepink);
+    background-color: var(--champagne-pink);
     padding: 2.5rem;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ main { margin: 3rem 0; }
 }
 
 .box p {
-    background-color: var(--black);
+    background-color: var(--eerie-black);
     color: var(--white);
     padding: 0.5rem 0;
     width: 100%;
