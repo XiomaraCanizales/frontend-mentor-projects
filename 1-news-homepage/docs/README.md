@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/news-homepage-main)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/1-news-homepage/docs)
 - Live Site URL: [Add live site URL here](https://xiomaracanizales.github.io/frontend-mentor-projects/news-homepage-main/docs/index.html)
 
 ## My process

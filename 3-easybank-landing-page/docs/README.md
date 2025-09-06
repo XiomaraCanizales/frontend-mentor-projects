@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/easybank-landing-page)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/3-easybank-landing-page/docs)
 - Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/easybank-landing-page/docs/index.html)
 
 ## My process

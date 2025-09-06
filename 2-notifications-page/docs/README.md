@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/notifications-page-main)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/2-notifications-page/docs)
 - Live Site URL: [URL](https://xiomaracanizales.github.io/frontend-mentor-projects/notifications-page-main/docs/index.html)
 
 ## My process

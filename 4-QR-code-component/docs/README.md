@@ -9,11 +9,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/4-QR-code-component/docs)
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
@@ -36,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I have return to Frontend Mentor to get portfolio ready projects. And I'm taking the Learning Path, starting from the beginning, the newbie 🤓
 
 ## Author
 
