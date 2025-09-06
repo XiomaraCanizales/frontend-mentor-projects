@@ -231,7 +231,13 @@ li { list-style-type: none; }
 .box3 .cta-btn { margin-bottom: 2rem; }
 
 /**/
-.attribution { font-size: 11px; text-align: center; }
+.attribution {  
+    background-color: var(--very-light-gray);
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+}
+
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* media queries */
