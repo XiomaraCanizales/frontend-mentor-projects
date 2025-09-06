@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/5-blog-preview-card/docs)
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/5-blog-preview-card/docs/index.html)
 
 ## My process
 
