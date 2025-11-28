@@ -1,0 +1,100 @@
+/* import
+[Inter](https://fonts.google.com/specimen/Inter) */
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --weigth-400: 400;
+    --weigth-600: 600;
+    --weigth-700: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--grey-900);
+    color: var(--white);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+main {
+    background-color: var(--grey-800);
+    border-radius: 12px;
+    width: 375px;
+    height: 100%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    margin: 5rem auto;
+}
+
+div { width: 100%; }
+
+.profile { 
+    margin-bottom: 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile img {
+    border-radius: 50%;
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.profile span { 
+    color: var(--green);
+    font-weight: var(--weigth-600);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    background-color: var(--grey-700);
+    border-radius: 12px;
+    padding: 1rem;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+li:hover { 
+    background-color: var(--green); 
+    color: var(--grey-900);
+}
+
+a {
+    color: inherit;
+    font-weight: var(--weigth-700);
+    text-decoration: none;
+}
+
+footer {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: var(--weigth-400);
+}
+
+@media (max-width: 1400px){
+    body {
+        width: 100%;
+    }
+}
