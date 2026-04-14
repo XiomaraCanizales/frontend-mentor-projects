@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](hhttps://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/6-social-media-links)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/6-social-media-links)
+- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/6-social-media-links/docs/index.html)
 
 ## My process
 
