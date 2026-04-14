@@ -10,7 +10,7 @@
 |  3.  | Digital bank landing page   | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/easybank-landing-page/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/3-easybank-landing-page/docs) |
 | 4.   | QR Code Component           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/4-QR-code-component/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/4-QR-code-component/docs) |
 | 5.   | Blog Preview Card           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/5-blog-preview-card/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/5-blog-preview-card/docs) |
-| 6.   | Social Media Links           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/5-blog-preview-card/docs/index.html)  | [Project Code](hhttps://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/6-social-media-links) |
+| 6.   | Social Media Links           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/5-blog-preview-card/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/6-social-media-links) |
 
 ### More of the projects
 My Frontend Mentor Profile: [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)<br>
