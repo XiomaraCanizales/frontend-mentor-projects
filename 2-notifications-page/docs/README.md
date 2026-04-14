@@ -65,5 +65,5 @@ Mostly I've been losing my fear of using JS.
 
 ## Author
 
+- [Website](hhttps://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)
-- Website - [My site](https://xiomaracanizales.github.io/portfolio/)
