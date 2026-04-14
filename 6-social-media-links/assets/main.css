@@ -91,6 +91,7 @@ footer {
     color: var(--white);
     font-size: 14px;
     font-weight: var(--weigth-400);
+    padding: 24px;
 }
 
 @media (max-width: 1400px){
