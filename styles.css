@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-/* variables */
 :root {
-    /* colors*/
     --bg:        #FFFDFD;
     --bg-alt:    #FDF6ED;
     --accent:    #D4537E;
@@ -44,7 +42,7 @@ img {
     border-radius: 14px;
 }
 
-/* HEADER */
+/* header */
 header { 
     padding-left: 60px; 
     margin-top: 24px; 
@@ -59,7 +57,7 @@ h1 {
 }
 em { font-style: italic; color: var(--accent); }
 
-/* MAIN */
+/* main */
 main { 
     padding: 60px; 
     max-width: 1200px; 
