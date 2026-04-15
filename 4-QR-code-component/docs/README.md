@@ -17,13 +17,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-- [Desktop View](../docs/screenshots/desktop-view.png)
-- [Mobile View](../docs/screenshots/mobile-view.png)
+![Desktop View](./screenshots/desktop-view.png)
+![Mobile View](./screenshots/mobile-view.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/4-QR-code-component/docs)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/4-QR-code-component/docs/index.html)
 
 ## My process
 
@@ -38,4 +38,5 @@ I have return to Frontend Mentor to get portfolio ready projects. And I'm taking
 
 ## Author
 
+- [Website](https://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)

@@ -26,14 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop View](../docs/screenshots/desktop-view.png)
-- [Mobile View](../docs/screenshots/mobile-view.png)
+![Desktop View](../docs/screenshots/desktop-view.png)
+![Mobile View](../docs/screenshots/mobile-view.png)
 
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/3-easybank-landing-page/docs)
-- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/easybank-landing-page/docs/index.html)
+- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/3-easybank-landing-page/docs/index.html)
 
 ## My process
 
@@ -59,5 +59,5 @@ Users should be able to:
 
 ## Author
 
-- [Website](hhttps://xiomara-canizales.netlify.app)
+- [Website](https://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)

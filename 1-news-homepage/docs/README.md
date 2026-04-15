@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop View](../news-homepage-main/docs/screenshots/desktop-view.png)
-- [Mobile View](../news-homepage-main/docs/screenshots/mobile-view.png)
-- [Mobile Menu View](../news-homepage-main/docs/screenshots/mobile-menu-view.png)
+- ![Desktop View](./screenshots/desktop-view.png)
+- ![Mobile View](./screenshots/mobile-view.png)
+- ![Mobile Menu View](./screenshots/mobile-menu-view.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/1-news-homepage/docs)
-- Live Site URL: [Add live site URL here](https://xiomaracanizales.github.io/frontend-mentor-projects/news-homepage-main/docs/index.html)
+- Live Site URL: [Live site URL](https://xiomaracanizales.github.io/frontend-mentor-projects/1-news-homepage/docs/index.html)
 
 ## My process
 
@@ -58,5 +58,5 @@ Users should be able to:
 
 ## Author
 
-- [Website](hhttps://xiomara-canizales.netlify.app)
+- [Website](https://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)

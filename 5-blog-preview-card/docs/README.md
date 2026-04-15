@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop View](../docs/screenshots/desktop-view.png)
-- [Mobile View](../docs/screenshots/mobile-view.png)
-- [Active View](../docs/screenshots/active-view.png)
+![Desktop View](./screenshots/desktop-view.png)
+![Mobile View](./screenshots/mobile-view.png)
+![Active View](./screenshots/active-view.png)
 
 ### Links
 
@@ -45,5 +45,5 @@ I have return to Frontend Mentor to get portfolio ready projects. And I'm taking
 
 ## Author
 
-- [Website](hhttps://xiomara-canizales.netlify.app)
+- [Website](https://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)

@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop Viewo](../images/6-social-media-links.png)
+![Desktop View](./screenshots/view.png)
 
 ### Links
 

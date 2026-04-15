@@ -183,12 +183,22 @@ hr {
 
 /* footer */
 footer {
-    padding: 3em 0;
-    font-size: 11px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
+    font-size: 11px;
+    padding: 1rem;
 }
+
 footer a {
+    text-decoration: none;
+    font-weight: 700;
     color: var(--yellow);
+}
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* responsive */

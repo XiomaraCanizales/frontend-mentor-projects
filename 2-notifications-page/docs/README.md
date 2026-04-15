@@ -28,14 +28,13 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![Desktop View](/notifications-page-main/docs/screenshoots/desktop-view.png "Desktop View")
-![Mobile View](/notifications-page-main/docs/screenshoots/mobile-view.png "Mobile View")
-
+![Desktop View](./screenshoots/desktop-view.png)
+![Mobile View](./screenshoots/mobile-view.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/2-notifications-page/docs)
-- Live Site URL: [URL](https://xiomaracanizales.github.io/frontend-mentor-projects/notifications-page-main/docs/index.html)
+- Live Site URL: [Live URL](https://xiomaracanizales.github.io/frontend-mentor-projects/2-notifications-page/docs/index.html)
 
 ## My process
 
@@ -65,5 +64,5 @@ Mostly I've been losing my fear of using JS.
 
 ## Author
 
-- [Website](hhttps://xiomara-canizales.netlify.app)
+- [Website](https://xiomara-canizales.netlify.app)
 - Frontend Mentor - [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)

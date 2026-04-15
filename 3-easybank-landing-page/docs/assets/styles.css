@@ -232,13 +232,22 @@ li { list-style-type: none; }
 
 /**/
 .attribution {  
-    background-color: var(--very-light-gray);
     text-align: center;
-    padding: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 11px;
+    padding: 1rem;
 }
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--line-green); 
+}
+
+
+.attribution a:hover {
+    text-decoration: underline;
+}
 
 /* media queries */
 @media (max-width: 899px) {
