@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/7-recipe-page/docs)
+- Solution URL: [Solution URL](https://xiomaracanizales.github.io/frontend-mentor-projects/7-recipe-page/docs/index.html)
 - Live Site URL: [Live site URL](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/7-recipe-page)
 
 ## Author
