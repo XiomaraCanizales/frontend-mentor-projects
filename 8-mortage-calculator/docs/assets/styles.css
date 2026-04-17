@@ -21,7 +21,7 @@ body {
     background-color: var(--slate-100);
     color: var(--slate-700);
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 
     display: flex;
     justify-content: center;
@@ -70,6 +70,13 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1.5rem;
 }
 
 /* input number */
@@ -207,7 +214,7 @@ input[type="radio"]::before {
     font-weight: 700;
     color: var(--slate-900);
     padding: 1rem 2rem;
-
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,10 +295,17 @@ hr {
     font-weight: 700;
 }
 
-/* error on empty fields */
-input:invalid {
-  border-color: #c00000;
+/* error handling */
+.error { border: 1px solid var(--red); }
+.error span { 
+    background-color: var(--red); 
+    color: var(--white);
 }
+.errorMsg {
+    color: var(--red);
+    font-size: 0.6875rem;
+}
+
 /* footer */
 footer {
     position: fixed;
