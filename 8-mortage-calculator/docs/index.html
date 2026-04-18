@@ -56,15 +56,16 @@
             <legend>Mortgage Type</legend>
 
             <label for="repayment" class="radio-label">
-              <input type="radio" id="repayment" name="mortgage-type" value="repayment" required>
-              <span class="custom-radio"></span>
+              <input type="radio" id="repayment" name="mortgage-type" value="repayment">
               Repayment
             </label>
 
             <label for="interest-only" class="radio-label">
-              <input type="radio" id="interest-only" name="mortgage-type" value="interest-only" required>
+              <input type="radio" id="interest-only" name="mortgage-type" value="interest-only">
               Interest Only
             </label>
+            <!-- error handling -->
+              <div class="errorRadioMsg"></div>
           </fieldset>
 
           <button id="calculateBtn">

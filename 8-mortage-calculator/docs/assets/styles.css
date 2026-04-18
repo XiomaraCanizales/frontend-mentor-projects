@@ -229,6 +229,8 @@ input[type="radio"]::before {
 #calculateBtn img { width: 1rem; }
 
 /* result section */
+.hidden { display: none !important; }
+
 #results-container {
     background-color: var(--slate-900);
     flex: 1;
@@ -262,7 +264,6 @@ hr {
     flex-direction: column;
     gap: 1.5rem;
     padding: 2rem; 
-    display: none;
 }
 
 #completed-results p { color: var(--slate-500); }
@@ -301,7 +302,7 @@ hr {
     background-color: var(--red); 
     color: var(--white);
 }
-.errorMsg {
+.errorMsg, .errorRadioMsg {
     color: var(--red);
     font-size: 0.6875rem;
 }
