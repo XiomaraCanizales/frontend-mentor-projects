@@ -12,6 +12,7 @@
 | 5.   | Blog Preview Card           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/5-blog-preview-card/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/5-blog-preview-card/docs) |
 | 6.   | Social Media Links           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/6-social-media-links/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/6-social-media-links/docs) |
 | 7.   | Recipe Page           | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/7-recipe-page/docs/index.html)  | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/7-recipe-page/docs) |
+| 8.   | Mortgage Calculator          | [Project Demo](https://xiomaracanizales.github.io/frontend-mentor-projects/8-mortage-calculator/docs/index.html)   | [Project Code](https://github.com/XiomaraCanizales/frontend-mentor-projects/tree/main/8-mortage-calculator/docs) |
 
 ### More of the projects
 - My Frontend Mentor Profile: [@XiomaraCanizales](https://www.frontendmentor.io/profile/XiomaraCanizales)
