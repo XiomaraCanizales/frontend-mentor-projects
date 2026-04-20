@@ -19,23 +19,35 @@
 <body>
     <header>
       <div class="logo">
-        <img src="./assets/images/logo.svg" alt="Logo sunnyside">
+        <a href="/" arial-label="Sunnyside Home">
+          <img src="./assets/images/logo.svg" alt="Logo sunnyside">
+        </a>
       </div>
       <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#"></a>Services</li>
-          <li><a href="#"></a>Projects</li>
-          <li><a href="#" class="cta-button">Contact</a></li>
+        <button class="burger-icon" aria-label="Menu" aria-expanded="false">
+          <img src="./assets/images/icon-hamburger.svg" alt="">
+        </button>
+
+        <div class="nav-menu-mobile">
+          <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#" class="cta-button">Contact</a></li>
         </ul>
       </nav>
+        </div>
+        
     </header>
 
     <main>
+      <!-- hero -->
       <section class="hero">
         <h1>We are creatives</h1>
+        <img src="./assets/images/icon-arrow-down.svg" alt="Arrow down">
       </section>
 
+      <!-- features -->
       <section id="features">
         <article>
           <div class="content">
@@ -73,36 +85,58 @@
           <h2>Graphic design</h2>
           <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
         </article>
+
         <article>
           <h2>Photography</h2>
           <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </article>
       </section>
 
+      <!-- testimonials -->
       <section id="testimonials">
         <h2>Client testimonials</h2>
+        
         <article>
-          <img src="./assets/images/image-emily.jpg" alt="Photo of a woman">
-          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-          <p>Emily R.</p>
-          <p>Marketing Director</p>
+          <figure>
+            <img src="./assets/images/image-emily.jpg" alt="Photo of a woman">
+            <blockquote class="testimonial-text">
+              <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            </blockquote>
+            <figcaption>
+              <p class="name">Emily R.</p>
+              <p class="title">Marketing Director</p>
+            </figcaption>
+          </figure>
         </article>
 
         <article>
-          <img src="./assets/images/image-thomas.jpg" alt="Photo of a man">
-          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-          <p>Thomas S.</p>
-          <p>Chief Operating Officer</p>
+          <figure>
+            <img src="./assets/images/image-thomas.jpg" alt="Photo of a man">
+            <blockquote class="testimonial-text">
+              <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            </blockquote>
+            <figcaption>
+              <p class="name">Thomas S.</p>
+              <p class="title">Chief Operating Officer</p>
+            </figcaption>
+          </figure>
         </article>
 
         <article>
-          <img src="./assets/images/image-jennie.jpg" alt="Photo of a woman">
-          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-          <p>Jennie F.</p>
-          <p>Business Owner</p>
+          <figure>
+            <img src="./assets/images/image-jennie.jpg" alt="Photo of a woman">
+            <blockquote class="testimonial-text">
+              <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            </blockquote>
+            <figcaption>
+              <p class="name">Jennie F.</p>
+              <p class="title">Business Owner</p>
+            </figcaption>
+          </figure>
         </article>
       </section>
 
+      <!-- gallery -->
       <section id="gallery">
         <div class="gallery-image-wrapper">
           <picture>
@@ -127,8 +161,8 @@
 
         <div class="gallery-image-wrapper">
           <picture>
-            <source media="(min-width: 1024px)" srcset="./assets/images/desktop/image-gallery-sugarcubes.jpg">
-            <img src="./assets/images/mobile/image-gallery-sugarcubes.jpg" alt="image of a sugarcubes" loading="lazy">
+            <source media="(min-width: 1024px)" srcset=".assets/images/desktop/image-gallery-sugarcubes.jpg">
+            <img src="./assets/images/mobile/image-gallery-sugar-cubes.jpg" alt="image of a sugarcubes" loading="lazy">
           </picture>
         </div>
       </section>
@@ -136,22 +170,28 @@
     </main>
 
     <footer>
-      <div class="top-footer">
-        <img src="./assets/images/logo.svg" alt="Logo sunnyside">
-        <nav>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
+      <img src="./assets/images/logo.svg" alt="Logo sunnyside">
+      <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
         </nav>
-        <div class="social-media"></div>
+ 
+        <div class="social-media">
+          <!-- media icons here -->
+        </div>
       </div>
       
       <div class="bottom-footer">
+        <p>
+          Challenge by 
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" aria-label="Opens in a new tab">Frontend Mentor</a>.
+        </p>
         <address>
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" aria-label="Opens in a new tab">Frontend Mentor</a>.
-        </address>
-        <address>
-            Coded by <a href="https://github.com/XiomaraCanizales" target="_blank" rel="noopener noreferrer" aria-label="Opens in a new tab">Xiomara</a>.
+            Coded by 
+            <a href="https://github.com/XiomaraCanizales" target="_blank" rel="noopener noreferrer" aria-label="Opens in a new tab">Xiomara</a>.
         </address>
       </div>
     
