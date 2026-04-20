@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <link rel="stylesheet" href="./assets/reset.css">
   <link rel="stylesheet" href="./assets/style.css">
   <title>Sunnyside agency landing page</title>
@@ -19,32 +20,32 @@
 <body>
     <header>
       <div class="logo">
-        <a href="/" arial-label="Sunnyside Home">
-          <img src="./assets/images/logo.svg" alt="Logo sunnyside">
-        </a>
+        <img src="./assets/images/logo.svg" alt="Sunnyside">
       </div>
+
       <nav>
-        <button class="burger-icon" aria-label="Menu" aria-expanded="false">
+        <button class="burger-icon" aria-label="Menu" aria-expanded="false" onclick="toggleMenu()">
           <img src="./assets/images/icon-hamburger.svg" alt="">
         </button>
 
-        <div class="nav-menu-mobile">
+        <div id="nav-menu" class="nav-menu">
           <ul class="nav-links">
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#" class="cta-button">Contact</a></li>
-        </ul>
-      </nav>
+          </ul>
         </div>
-        
+      </nav>
     </header>
 
     <main>
       <!-- hero -->
       <section class="hero">
         <h1>We are creatives</h1>
-        <img src="./assets/images/icon-arrow-down.svg" alt="Arrow down">
+        <div class="arrow">
+          <img src="./assets/images/icon-arrow-down.svg" alt="Arrow down">
+        </div> 
       </section>
 
       <!-- features -->
