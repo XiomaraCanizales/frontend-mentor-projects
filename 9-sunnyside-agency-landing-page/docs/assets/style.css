@@ -16,26 +16,26 @@
 
 @font-face {
     font-family: 'Barlow';
-    src: url(./fonts/Barlow-SemiBold.ttf);
+    src: url(fonts/Barlow-SemiBold.ttf);
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
   font-family: 'Fraunces';
-  src: url('./fonts/Fraunces_72pt-Bold.ttf') format('truetype');
+  src: url('fonts/Fraunces_72pt-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
     font-family: 'Fraunces';
-    src: url(./fonts/Fraunces_72pt-Black.ttf) format('truetype');
+    src: url(fonts/Fraunces_72pt-Black.ttf) format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
-/* * { border: 1px solid lime; } */
+* { border: 1px solid lime; }
 
 /* global */
 html { font-size: 100%; }
@@ -50,9 +50,14 @@ a { text-decoration: none; }
 h1, h2, h3 { font-family: 'Fraunces', serif; }
 p {
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.7;
     font-weight: 600;
     letter-spacing: 0.3px;
+}
+
+img { 
+    display: block;
+    width: 100%;
 }
 
 /* --- Header & Nav --- */
@@ -100,7 +105,7 @@ header {
   top: -1.25rem; /* -20px */
   right: 0;
   border-left: 1.25rem solid transparent;
-  border-bottom: 1.25rem solid white;
+  border-bottom: 1.25rem solid var(--white);
 }
 
 .nav-menu.open { display: block; } /* show when active */
@@ -132,7 +137,7 @@ header {
 
 /* hero */
 .hero {
-    background-image: url('../assets/images/mobile/image-header.jpg');
+    background-image: url('images/mobile/image-header.jpg');
     background-position: center;
     background-size: cover;
     height: 100svh;
@@ -148,7 +153,7 @@ header {
 .hero h1 {
     font-weight: 900;
     color: var(--white);
-    font-size: 30px;
+    font-size: clamp(2rem, 10vw, 4.5rem);
     text-transform: uppercase;
     letter-spacing: 0.25rem;
 
@@ -158,8 +163,7 @@ header {
 
 /* feature */
 .container {
-    /* height: 440px; */
-    padding: 70px 24px;
+    padding: 4.375rem 24px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -167,7 +171,7 @@ header {
 }
 
 .content-title {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 900;
     padding: 0 1.75rem;
     color: var(--grey-950);
@@ -186,13 +190,13 @@ header {
 
 /* .transform:hover { border-bottom: 5px solid var(--yellow-500); } */
 
-.image-wrapper {
+.image-wrapper, .gallery-image-wrapper {
     line-height: 0;
     font-size: 0;
 }
 
 .graphic {
-    background-image: url('../assets/images/mobile/image-graphic-design.jpg');
+    background-image: url('images/mobile/image-graphic-design.jpg');
     background-position: center;
     background-size: cover;
     height: 600px;
@@ -210,7 +214,7 @@ header {
 }
 
 .photography {
-    background-image: url('../assets/images/mobile/image-photography.jpg');
+    background-image: url('images/mobile/image-photography.jpg');
     background-position: center;
     background-size: cover;
     height: 600px;
@@ -255,12 +259,13 @@ blockquote p { color: var(--grey-600)}
     font-weight: 900;
     font-size: 15px;
     color: var(--grey-950);
-    margin: 1rem 0 0.5rem;
 }
 
 .title {
     font-size: 12px;
     color: var(--grey-400);
+    display: block;
+    margin-top: 0.5rem;
 }
 
 /* gallery */
@@ -280,6 +285,10 @@ footer {
     align-items: center;
 }
 
+.footer-logo {
+    filter: invert(53%) sepia(11%) saturate(1288%) hue-rotate(115deg) brightness(92%) contrast(85%);
+}
+
 footer nav { width: 100%; }
 
 .footer-menu {
@@ -291,6 +300,10 @@ footer nav { width: 100%; }
 .footer-menu li a{
     color: var(--green-500);
     font-size: 14px;
+}
+
+.social-icon:hover path {
+    fill: var(--white);
 }
 
 .bottom-footer { width: 100%; }
@@ -337,15 +350,32 @@ footer nav { width: 100%; }
     }
     
     .hero { 
-        background-image: url('../assets/images/desktop/image-header.jpg'); 
+        background-image: url('images/desktop/image-header.jpg'); 
         height: 75vh;
     }
-   /*  #features {
+    /*#features {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 600px);
+        grid-template-rows: repeat(, 1fr);
     }
-    #features article {
+     #features article {
         border: 1px solid black;
     } */
+    #features article {
+        display: flex;
+        gap: 0;
+    }
+    .image-wrapper {
+        flex: 0 0 50%;
+    }
+    .text-wrapper {
+        flex: 0 0 50%;
+        text-align: left;
+        padding: 4rem;
+    }
+    .content-title {
+        padding: 0;
+        font-size: 2rem;
+        width: 80%;
+    }
+    
 }
