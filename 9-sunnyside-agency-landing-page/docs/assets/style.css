@@ -35,7 +35,6 @@
     font-style: normal;
     font-display: swap;
 }
-* { border: 1px solid lime; }
 
 /* global */
 html { font-size: 100%; }
@@ -50,7 +49,7 @@ a { text-decoration: none; }
 h1, h2, h3 { font-family: 'Fraunces', serif; }
 p {
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.6;
     font-weight: 600;
     letter-spacing: 0.3px;
 }
@@ -69,12 +68,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 2rem;
+    padding: 1.75rem 2rem;
     background-color: transparent;
 }
 
 .logo img {
-    width: 9rem;
+    width: 6.5rem;
     height: auto;
 }
 
@@ -140,30 +139,29 @@ header {
     background-image: url('images/mobile/image-header.jpg');
     background-position: center;
     background-size: cover;
-    height: 100svh;
+    height: 85svh;
     padding: 0 1.5rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 5rem;
 }
 
 .hero h1 {
     font-weight: 900;
     color: var(--white);
-    font-size: clamp(2rem, 10vw, 4.5rem);
+    font-size: clamp(2rem, 8vw, 4.5rem);
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.35rem;
 
     text-align: center;
-    line-height: 1;
+    line-height: 1.2;
 }
 
-/* feature */
+/* --- Feature --- */
 .container {
-    padding: 4.375rem 24px;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -171,7 +169,7 @@ header {
 }
 
 .content-title {
-    font-size: 1.625rem;
+    font-size: 1.725rem;
     font-weight: 900;
     padding: 0 1.75rem;
     color: var(--grey-950);
@@ -188,8 +186,6 @@ header {
     text-transform: uppercase;
 }
 
-/* .transform:hover { border-bottom: 5px solid var(--yellow-500); } */
-
 .image-wrapper, .gallery-image-wrapper {
     line-height: 0;
     font-size: 0;
@@ -199,13 +195,7 @@ header {
     background-image: url('images/mobile/image-graphic-design.jpg');
     background-position: center;
     background-size: cover;
-    height: 600px;
-}
-
-.graphic .container,
-.photography .container {
-    height: 100%;
-    padding-top: 400px;
+    height: 550px;
 }
 
 .graphic h2,
@@ -217,12 +207,7 @@ header {
     background-image: url('images/mobile/image-photography.jpg');
     background-position: center;
     background-size: cover;
-    height: 600px;
-}
-
-.photography .content {
-    height: 100%;
-    padding-top: 400px;
+    height: 550px;
 }
 
 .photography h2,
@@ -230,13 +215,17 @@ header {
      color: var(--blue-800);
 }
 
-/* testimonials */
-.testimonial-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: center;
+.graphic .container,
+.photography .container {
+    height: 100%;
+    padding-top: 85%;
 }
+
+/* --- Testimonials --- */
+#testimonials article {
+    margin-bottom: 2rem;
+}
+
 h3 {
     color: var(--grey-400);
     text-transform: uppercase;
@@ -247,14 +236,15 @@ h3 {
 
 .testimony-img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
 
-blockquote p { color: var(--grey-600)}
+blockquote p { color: var(--grey-600); margin-bottom: 1rem; }
 .name {
+    
     font-family: 'Fraunces', serif;
     font-weight: 900;
     font-size: 15px;
@@ -268,38 +258,44 @@ blockquote p { color: var(--grey-600)}
     margin-top: 0.5rem;
 }
 
-/* gallery */
+/* --- Gallery --- */
 #gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
 
-/* footer */
+/* --- Footer --- */
 footer {
     background-color: rgb(159, 210, 197);
     padding: 2.5rem 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
 .footer-logo {
     filter: invert(53%) sepia(11%) saturate(1288%) hue-rotate(115deg) brightness(92%) contrast(85%);
+    max-width: 150px;
 }
 
 footer nav { width: 100%; }
 
 .footer-menu {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    padding: 0;
     justify-content: space-between;
 }
 
-.footer-menu li a{
+footer li a{
     color: var(--green-500);
     font-size: 14px;
+}
+
+.social-media-container {
+    width: 80%;
 }
 
 .social-icon:hover path {
@@ -317,7 +313,9 @@ footer nav { width: 100%; }
 
 .bottom-footer a { color: var(--green-500); }
 
+/* --- Desktop --- */
 @media (min-width: 700px) {
+    * { border: 1px solid lime; }
     header { padding: 1.5rem 2rem; }
     
     .burger-icon { display: none; } 
